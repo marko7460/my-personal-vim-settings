@@ -10,7 +10,7 @@ Plugins
 2. syntastic
   1. Install: cd ~/.vim/bundle; git clone https://github.com/scrooloose/syntastic.git
   2. Add this in ~/.vimrc 
-  3.   ```
+```
 " Syntastic settings
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
@@ -19,7 +19,7 @@ set statusline+=%*
 3. SimplyFold
   1. Install: cd ~/.vim/bundle; git clone  https://github.com/scrooloose/syntastic.git
   2. Add this in ~/.vimrc
-  ```
+```
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
