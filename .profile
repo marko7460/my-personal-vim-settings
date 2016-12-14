@@ -1,6 +1,5 @@
 alias ll='ls -l'
 alias subl="'/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl'"
-alias activate_hermes='source ~/.virtualenvs/hermes_master/bin/activate'
 alias jmeter='/Users/marko/apache-jmeter-3.0/bin/jmeter.sh'
 
 # Setting ulimits
@@ -42,8 +41,6 @@ if [ -f "$(brew --prefix)/opt/bash-git-prompt/share/gitprompt.sh" ]; then
     source "$(brew --prefix)/opt/bash-git-prompt/share/gitprompt.sh"
 fi
 
-# Source hermes
-source ~/.virtualenvs/hermes_master/bin/activate
 
 # pip bash completion start
 _pip_completion()
